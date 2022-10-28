@@ -27,7 +27,12 @@ const Header = () => {
           <div className="flex flex-col items-center ">
             <p className="bg-[#0f0f2c] -mb-4 z-10 px-2 font-bold">Sort By</p>
             <p className="border pt-3 pb-1 border-gray-600 text-gray-300 rounded-full min-w-fit px-7">
-              Didest
+              <select class="bg-transparent text-gray-500 focus:outline-none font-semibold">
+                <option value="US">United States</option>
+                <option value="CA">Canada</option>
+                <option value="FR">France</option>
+                <option value="DE">Germany</option>
+              </select>
             </p>
           </div>
         </div>
