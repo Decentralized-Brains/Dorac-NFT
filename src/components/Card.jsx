@@ -21,8 +21,8 @@ const Card = () => {
           <p className="text-lg font-semibold text-yellow-500">58%</p>
         </div>
         <div className="text-white absolute bottom-8 right-8 text-center">
-          <p className="text-sm">Stamina</p>
-          <p className="text-lg font-semibold text-yellow-500">52</p>
+          <p className="text-sm">Tier</p>
+          <p className="text-lg font-semibold text-yellow-500">2</p>
         </div>
         <img
           className="min-w-[180px] hover:scale-110 duration-200"
